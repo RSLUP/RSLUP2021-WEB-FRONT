@@ -3,7 +3,7 @@ let APIConfig;
 
 if (DEBUG) {
     APIConfig = {
-        API_BASE_URL: 'https://jsonplaceholder.typicode.com',
+        API_BASE_URL: 'http://localhost:5001/api/v1'
     };
 } else {
     APIConfig = {
